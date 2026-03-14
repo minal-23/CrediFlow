@@ -1,4 +1,4 @@
-# Loan-Management-System
+# CrediFlow (Loan Payment System)
 Microservices Architecture with API Gateway
 
 Secure Authentication via JWT (JSON Web Tokens)
