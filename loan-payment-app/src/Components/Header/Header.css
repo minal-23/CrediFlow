@@ -1,0 +1,36 @@
+/* Color codes used in NatWest
+Dark purple (used in hovers and certain places) : #401664
+Light purple (predominant): #6824a3
+Font: knileblack or knilebold 
+Else sans sarif */
+.custom-navbar-color {
+    background-color: 
+    #5a287d;
+}
+.header{
+    color: White;
+
+}
+.navbar-nav .nav-link,
+.dropdown-menu .dropdown-item {
+    color: white !important;
+    text-decoration: none !important;
+}
+.custom-navbar-color .dropdown-menu {
+    background-color: #5a287d;
+    backdrop-filter: blur(100px);
+}
+.custom-navbar-color .dropdown-menu a.dropdown-item {
+    color: white; 
+    transition: color 0.3s, background-color 0.3s;
+    text-decoration: none !important;
+}
+.custom-navbar-color .dropdown-menu a.dropdown-item:hover {
+    color: black !important; 
+    background-color: white;
+    text-decoration: none !important;
+}
+
+
+
+    

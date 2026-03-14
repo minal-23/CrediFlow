@@ -1,0 +1,11 @@
+.calcContainer{
+    padding-top: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
+.calc{
+    padding: 2%;
+    display: flex;
+}
+

@@ -1,0 +1,9 @@
+/* .card {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+} */
+
+.card-body {
+    font-weight: bolder;
+    z-index: 2;
+}

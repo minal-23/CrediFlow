@@ -1,0 +1,59 @@
+.custom-navbar-color {
+    background-color: 
+    #5a287d
+}
+.header{
+    color: White;
+
+}
+.navbar-nav .nav-link,
+.dropdown-menu .dropdown-item {
+    color: white !important;
+}
+.custom-navbar-color .dropdown-menu {
+    background-color: #5a287d;
+    backdrop-filter: blur(100px);
+    text-decoration: dotted;
+}
+.custom-navbar-color .dropdown-menu a.dropdown-item {
+    color: white; 
+    transition: color 0.3s, background-color 0.3s;
+}
+.custom-navbar-color .dropdown-menu a.dropdown-item:hover {
+    color: black !important; 
+    background-color: white;
+    text-decoration: wavy;
+}
+  
+  .chat-icon {
+    position: fixed;
+    bottom: 8vh; /* Adjust this value to set the distance from the bottom */
+    right: 40px; /* Adjust this value to set the distance from the right */
+    z-index: 999; /* Ensures the icon is above other content */
+  }
+  
+  .chat-icon button {
+    background-color: rgb(199, 64, 214) ;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .chat-icon button:hover{
+    background-color: rgb(225, 116, 217);
+  }
+
+  .chatbot{
+    position: fixed;
+    bottom: 16vh;
+    right: 60px;
+    z-index: 999;
+  }
+  
+  /* Add hover or other styles as needed */
+  
+    

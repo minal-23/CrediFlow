@@ -1,0 +1,89 @@
+
+.hero-section {
+  background-color: #6824a3;
+  color: white;
+}
+
+.Title {
+  color: white;
+  font-family:'Alfa Slab One', cursive;
+  font-size: '48px';
+  line-height: 54px;
+}
+.headtext{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.carousel {
+  height: 400px;
+  color: white;
+}
+
+.carousel-container {
+  position: relative;
+  height: 400px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1; /* Ensure the buttons appear above the slides */
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+
+.navigate {
+  background-color: white;
+  color: #6824a3 !important;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  z-index: 1 !important;
+}
+
+.small-text {
+  color: white !important;
+}
+
+
+#calculateNowButton{
+  background-color: #401664;
+  color: white !important;
+  outline: none;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+#calculateNowButton:hover {
+  background-color: white;
+  color: #401664 !important;
+  text-decoration: none !important;
+}
+#routing{
+  background-color: #401664;
+  color: white !important;
+  outline: none;
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+
+#routing:hover {
+  background-color: white;
+  color: #401664 !important;
+  text-decoration: none !important;
+}
