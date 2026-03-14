@@ -1,0 +1,12 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ω΄΄²8–ώδ²1
+m
+java:S3655X"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ƒΑΘΡ8Ήώδ²1
+r
+java:S3655O"PCall "fileInfo.isPresent()" or "!fileInfo.isEmpty()" before accessing the value.(β³Γ’ώÿÿÿÿ8Ήώδ²1
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Π¥Ε8Δώδ²1
+\
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·ξ™ωÿÿÿÿ8Δώδ²1
+Q
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(«ªg8Δώδ²1

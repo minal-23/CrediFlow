@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="RegisterLoginService" />
+        <module name="LoanInfoService" />
+        <module name="PersonalLoanDocsService" />
+        <module name="otpservice" />
+        <module name="HomeLoanDocsService" />
+        <module name="DiscoveryService" />
+        <module name="GoldLoanService" />
+        <module name="user" />
+        <module name="ApiGateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AuthenticationService" target="1.5" />
+      <module name="CarLoanDataService" target="17" />
+      <module name="CarLoanDocsService" target="17" />
+      <module name="CarLoanDocsService (1)" target="17" />
+      <module name="CarLoanDocsService (2)" target="17" />
+      <module name="dummyService" target="17" />
+      <module name="PersonalLoanDocsServices" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway" options="-parameters" />
+      <module name="CarLoanDocsService" options="" />
+      <module name="CarLoanDocsService (1)" options="-parameters" />
+      <module name="CarLoanDocsService (2)" options="-parameters" />
+      <module name="DiscoveryService" options="-parameters" />
+      <module name="GoldLoanService" options="-parameters" />
+      <module name="HomeLoanDocsService" options="-parameters" />
+      <module name="LoanInfoService" options="-parameters" />
+      <module name="PersonalLoanDocsService" options="-parameters" />
+      <module name="PersonalLoanDocsServices" options="-parameters" />
+      <module name="RegisterLoginService" options="-parameters" />
+      <module name="dummyService" options="-parameters" />
+      <module name="otpservice" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>

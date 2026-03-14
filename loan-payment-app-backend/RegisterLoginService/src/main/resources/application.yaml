@@ -1,0 +1,30 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: RegisterLogin-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/loan_payment?createDatabaseIfNotExist=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: JHvuUVUby2376GUVutUYVUG765675UGVUGVFTUYG6786876HGFhgyvuyhbjuuyb6567JHVUTCUYGTYFUGy757867JHGVCYGVJUHGCYUT
+  expiration: 3600000
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

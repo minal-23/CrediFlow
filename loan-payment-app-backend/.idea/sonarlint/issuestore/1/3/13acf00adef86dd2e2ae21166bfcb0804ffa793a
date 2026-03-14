@@ -1,0 +1,12 @@
+
+g	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(©š´µûÿÿÿÿ8¶Íğı±1
+g	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(¤ö¸Àùÿÿÿÿ8¶Íğı±1
+g	java:S112?"FDefine and throw a dedicated exception instead of using a generic one.(©š´µûÿÿÿÿ8¶Íğı±1
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(©áóéüÿÿÿÿ8·Íğı±1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡àø…8¾Íğı±1
+^
+java:S11265"AReplace this if-then-else statement by a single return statement.(ì’áß8Ú¹öı±1
+d
+java:S1128"BRemove this unused import 'com.netflix.discovery.converters.Auto'.(İ¼’²ùÿÿÿÿ8¸¿™²1
+l
+java:S1128	"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8¸¿™²1

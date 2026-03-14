@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û¢áÜøÿÿÿÿ8½¤à‘²1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÙÙ‰—ÿÿÿÿÿ8Ü¤à‘²1
+n
+java:S1128"QRemove this unused import 'org.springframework.cloud.gateway.route.RouteLocator'.(å€üØ8ñ¤à‘²1
+|
+java:S1128"`Remove this unused import 'org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder'.(“›ó#8ò¤à‘²1
+e
+java:S1128"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Þ8ò¤à‘²1

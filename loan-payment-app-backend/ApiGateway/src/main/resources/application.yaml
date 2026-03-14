@@ -1,0 +1,55 @@
+server:
+  port: 8765
+
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: api-gateway-service
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+      routes:
+        - id: personalLoanDocsUpload_route
+          uri: "lb://personalLoanDoc-service"
+          predicates:
+            - Path=/api/v1/loan/personal/docs/**
+
+        - id: RegisterLogin_route
+          uri: "lb://RegisterLogin-service"
+          predicates:
+            - Path=/api/v1/users/**
+
+        - id: otp_route
+          uri: "lb://otp-service"
+          predicates:
+            - Path=/api/v1/otp/**
+
+        - id: loanService_route
+          uri: "lb://loanInfo-service"
+          predicates:
+            - Path=/api/v1/**
+
+
+        - id: goldLoanService_route
+          uri: "lb://GoldLoan-service"
+          predicates:
+           - Path=/api/v2/loan/gold/docs/**
+
+        - id: jwt_route
+          uri: "lb://User_Service"
+          predicates:
+            - Path=/api/v4/users/**
+#
+
+#        - id: homeloanService_route
+#          uri: "lb://homeLoan_service"
+#          predicates:
+#            - Path=/api/v1/loan/home/docs/**
+jwt:
+  secret: JHvuUVUby2376GUVutUYVUG765675UGVUGVFTUYG6786876HGFhgyvuyhbjuuyb6567JHVUTCUYGTYFUGy757867JHGVCYGVJUHGCYUT

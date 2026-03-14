@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CarLoanDataService/CarLoanDataService.iml" filepath="$PROJECT_DIR$/CarLoanDataService/CarLoanDataService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/loanPaymentBackend.iml" filepath="$PROJECT_DIR$/.idea/loanPaymentBackend.iml" />
+    </modules>
+  </component>
+</project>
